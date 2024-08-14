@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Spartan", sans-serif;
+  background-image: url("images/bg-pattern-top-mobile.svg"),
+    url("images/bg-pattern-bottom-mobile.svg");
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-size: 100%;
+}
+
+main {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  padding: 20px;
+  display: flex;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.left {
+  width: 40%;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  color: hsl(303, 10%, 53%);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.right {
+  width: 60%;
+  padding: 20px;
+}
+
+.rating1 {
+  border-radius: 5px;
+  background-color: hsl(300, 27%, 88%);
+  margin-right: 240px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.stars1 {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.reviews-in-text1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.rating2 {
+  border-radius: 5px;
+  background-color: hsl(300, 27%, 88%);
+  margin-right: 180px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.stars2 {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.reviews-in-text2 {
+  color: hsl(300, 43%, 22%);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.rating3 {
+  border-radius: 5px;
+  background-color: hsl(300, 27%, 88%);
+  margin-right: 140px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 12px;
+  margin-left: 80px;
+}
+
+.stars3 {
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.reviews-in-text3 {
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.review1 {
+  background-color: hsl(300, 43%, 22%);
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 30px;
+  margin-right: 20px;
+  height: 240px;
+}
+
+.person1 {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.person1 img {
+  height: 8%;
+  width: 8%;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.person1-detail h3 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.person1-detail span {
+  color: hsl(333, 80%, 67%);
+  font-size: 14px;
+}
+
+.review1 p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.review2 {
+  background-color: hsl(300, 43%, 22%);
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 240px;
+}
+
+.person2 {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.person2 img {
+  height: 8%;
+  width: 8%;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.person2-detail h3 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.person2-detail span {
+  color: hsl(333, 80%, 67%);
+  font-size: 14px;
+}
+
+.review2 p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.review3 {
+  background-color: hsl(300, 43%, 22%);
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  height: 240px;
+}
+
+.person3 {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.person3 img {
+  height: 8%;
+  width: 8%;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.person3-detail h3 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.person3-detail span {
+  color: hsl(333, 80%, 67%);
+  font-size: 14px;
+}
+
+.review3 p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 20px;
+}
